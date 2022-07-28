@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png'
 
-im = imread(img_url))
+im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
